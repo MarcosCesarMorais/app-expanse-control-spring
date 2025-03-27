@@ -44,6 +44,7 @@ VALUES (
   'maria@exemplo.com', 
   '$2a$10$xJwL5...'
 );
+```
 
 
 🛠️ Como Executar
