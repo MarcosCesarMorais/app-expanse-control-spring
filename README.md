@@ -20,6 +20,16 @@ Backend: Quarkus (Java)
 Banco de Dados: PostgreSQL
 Containerização: Docker
 
+🗃️ Estrutura do Banco de Dados
+1. Tabela usuarios
+Coluna	Tipo	Descrição	Restrições
+id	UUID	Identificador único	PRIMARY KEY, NOT NULL
+nome	VARCHAR(100)	Nome completo	NOT NULL
+email	VARCHAR(255)	E-mail	UNIQUE, NOT NULL
+senha_hash	TEXT	Hash da senha (bcrypt)	NOT NULL
+criado_em	TIMESTAMP	Data de criação	DEFAULT CURRENT_TIMESTAMP
+
+
 🛠️ Como Executar
 Pré-requisitos
 Java 17+
@@ -31,6 +41,8 @@ Maven
 ✔ API RESTful com documentação OpenAPI/Swagger<br>
 ✔ Integração com banco de dados PostgreSQL<br>
 ✔ Pronto para deploy em containers Docker
+
+
 
 ## **📊 Endpoints Principais**
 
