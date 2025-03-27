@@ -1,10 +1,14 @@
-# app-expanse-control-spring
-Repositório da aplicação para gestão de pagamentos e lançamentos financeiros.
+📋 aplicação para gestão de pagamentos e lançamentos financeiros.
 
-📋 Sistema de Agendamento de Consultas - Quarkus
-<div align="center"> <img src="https://img.shields.io/badge/Quarkus-000000?style=for-the-badge&logo=quarkus" alt="Quarkus" /> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" /> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /> </div>
+<div align="center"> 
+  <img src="https://img.shields.io/badge/Quarkus-000000?style=for-the-badge&logo=quarkus" alt="Quarkus" /> 
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" /> 
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" /> 
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /> 
+</div>
+  
 📌 Descrição
-Sistema de cadastro e agendamento de consultas desenvolvido em Quarkus, um framework Java moderno focado em performance e baixo consumo de recursos. 
+Sistema de cadastro e lançamentos de despesas desenvolvido em Java com Spring. 
 
 ✔ Cadastro de consultas
 ✔ API RESTful 
