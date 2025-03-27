@@ -53,6 +53,15 @@ Java 17+
 Docker (opcional)
 Maven
 
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/financeflow.git
+
+# 2. Suba os containers
+docker-compose -f docker/docker-compose.yml up -d
+
+# 3. Acesse a aplicação
+http://localhost:3000
+
 ### **✅ Funcionalidades**<br>
 ✔ Cadastro de consultas<br>
 ✔ API RESTful com documentação OpenAPI/Swagger<br>
