@@ -1,56 +1,30 @@
-📋 aplicação para gestão de pagamentos e lançamentos financeiros.
+## 📌 Descrição
+Sistema para gestão de pagamentos e lançamentos financeiros.
 
+### 🚀 Funcionalidades Principais
+
+#### 📌 Gestão de Usuários
+- **Cadastro seguro** com validação de e-mail.
+- **Hierarquia de acessos** (admin, usuário, convidado)
+
+#### 💰 Controle Financeiro
+- **Lançamento** de receitas e despesas
+
+#### 📊 Relatórios Avançados
+- **Geração de relatórios e receitas e despesas** (PDF)
+- 
+#### 📎 Anexos Digitais
+- **Upload de comprovantes** (PDF, imagem)
+
+## 🚀 Tecnologias
 <div align="center"> 
   <img src="https://img.shields.io/badge/Spring-000000?style=for-the-badge&logo=Spring" alt="Spring" /> 
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" /> 
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" /> 
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /> 
 </div>
-  
-📌 Descrição
-Sistema de cadastro e lançamentos de despesas desenvolvido em Java com Spring. 
 
-✔ Cadastro de consultas
-✔ API RESTful 
-✔ Integração com banco de dados PostgreSQL
-✔ Pronto para deploy em containers Docker
-
-## 🚀 Tecnologias
-<img src="https://img.shields.io/badge/Spring-000000?style=for-the-badge&logo=Spring" alt="Spring" />
-Backend: Java (Spring)
-
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" /> 
-Banco de Dados: PostgreSQL
-Containerização: Docker
-
-## 🗃️ Estrutura do Banco de Dados
-
-### 1. Tabela `usuarios`  
-**Descrição:**  
-Armazena os dados dos usuários cadastrados no sistema.  
-
-**Estrutura:**  
-| Coluna       | Tipo         | Restrições               | Descrição               |
-|--------------|--------------|--------------------------|-------------------------|
-| `id`         | `UUID`       | `PRIMARY KEY, NOT NULL`  | Identificador único     |
-| `nome`       | `VARCHAR(100)`| `NOT NULL`              | Nome completo           |
-| `email`      | `VARCHAR(255)`| `UNIQUE, NOT NULL`      | E-mail de acesso        |
-| `senha_hash` | `TEXT`       | `NOT NULL`              | Hash bcrypt da senha    |
-| `criado_em`  | `TIMESTAMP`  | `DEFAULT CURRENT_TIMESTAMP` | Data de cadastro     |
-
-**Exemplo de INSERT:**  
-```sql
-INSERT INTO usuarios (id, nome, email, senha_hash) 
-VALUES (
-  'a1b2c3d4-1234-5678-9101-112131415161', 
-  'Maria Silva', 
-  'maria@exemplo.com', 
-  '$2a$10$xJwL5...'
-);
-```
-
-
-🛠️ Como Executar
+## 🛠️ Como Executar
 Pré-requisitos
 Java 17+
 Docker (opcional)
@@ -65,11 +39,7 @@ docker-compose -f docker/docker-compose.yml up -d
 # 3. Acesse a aplicação
 http://localhost:3000
 
-### **✅ Funcionalidades**<br>
-✔ Cadastro de consultas<br>
-✔ API RESTful com documentação OpenAPI/Swagger<br>
-✔ Integração com banco de dados PostgreSQL<br>
-✔ Pronto para deploy em containers Docker
+
 
 
 
