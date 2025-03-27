@@ -3,9 +3,15 @@ Sistema para gestão de pagamentos e lançamentos financeiros.
 
 ### 🚀 Funcionalidades Principais
 
-#### 📌 Gestão de Usuários
+#### 👥 Gestão de Usuários
 - **Cadastro seguro** com validação de e-mail.
 - **Hierarquia de acessos** (admin, usuário, convidado)
+  
+#### 📝 Cadastro de Pessoas.
+- **Registro** com validação de e-mail.
+ - **Endereço** com validação de e-mail.
+ -  **Cidade e Estado** com validação de e-mail.
+   
 
 #### 💰 Controle Financeiro
 - **Lançamento** de receitas e despesas
