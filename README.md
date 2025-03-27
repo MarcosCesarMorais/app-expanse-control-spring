@@ -20,14 +20,30 @@ Backend: Quarkus (Java)
 Banco de Dados: PostgreSQL
 Containerização: Docker
 
-🗃️ Estrutura do Banco de Dados
-1. Tabela usuarios
-Coluna	Tipo	Descrição	Restrições
-id	UUID	Identificador único	PRIMARY KEY, NOT NULL
-nome	VARCHAR(100)	Nome completo	NOT NULL
-email	VARCHAR(255)	E-mail	UNIQUE, NOT NULL
-senha_hash	TEXT	Hash da senha (bcrypt)	NOT NULL
-criado_em	TIMESTAMP	Data de criação	DEFAULT CURRENT_TIMESTAMP
+## 🗃️ Estrutura do Banco de Dados
+
+### 1. Tabela `usuarios`  
+**Descrição:**  
+Armazena os dados dos usuários cadastrados no sistema.  
+
+**Estrutura:**  
+| Coluna       | Tipo         | Restrições               | Descrição               |
+|--------------|--------------|--------------------------|-------------------------|
+| `id`         | `UUID`       | `PRIMARY KEY, NOT NULL`  | Identificador único     |
+| `nome`       | `VARCHAR(100)`| `NOT NULL`              | Nome completo           |
+| `email`      | `VARCHAR(255)`| `UNIQUE, NOT NULL`      | E-mail de acesso        |
+| `senha_hash` | `TEXT`       | `NOT NULL`              | Hash bcrypt da senha    |
+| `criado_em`  | `TIMESTAMP`  | `DEFAULT CURRENT_TIMESTAMP` | Data de cadastro     |
+
+**Exemplo de INSERT:**  
+```sql
+INSERT INTO usuarios (id, nome, email, senha_hash) 
+VALUES (
+  'a1b2c3d4-1234-5678-9101-112131415161', 
+  'Maria Silva', 
+  'maria@exemplo.com', 
+  '$2a$10$xJwL5...'
+);
 
 
 🛠️ Como Executar
@@ -51,4 +67,4 @@ Maven
 | POST   | `/consultas`       | Agenda uma nova consulta      |
 | GET    | `/consultas/{id}`  | Busca consulta por ID         |
 
-<div align="center"> <p>✨ Desenvolvido por <strong>Marcos Morais</strong></p> <a href="https://github.com/seu-usuario">GitHub</a> | <a href="https://linkedin.com/in/seu-perfil">LinkedIn</a> </div>
+<div align="center"> <p>✨ Desenvolvido por <strong>Marcos Morais</strong></p> <a href="https://github.com/MarcosCesarMorais">GitHub</a> | <a href="https://www.linkedin.com/in/marcoscmorais/">LinkedIn</a> </div>
