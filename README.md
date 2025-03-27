@@ -15,8 +15,11 @@ Sistema de cadastro e lançamentos de despesas desenvolvido em Java com Spring.
 ✔ Integração com banco de dados PostgreSQL
 ✔ Pronto para deploy em containers Docker
 
-🚀 Tecnologias
-Backend: Quarkus (Java)
+## 🚀 Tecnologias
+<img src="https://img.shields.io/badge/Spring-000000?style=for-the-badge&logo=Spring" alt="Spring" />
+Backend: Java (Spring)
+
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" /> 
 Banco de Dados: PostgreSQL
 Containerização: Docker
 
