@@ -37,7 +37,7 @@ Docker (opcional)
 Maven
 
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/financeflow.git
+git clone https://github.com/MarcosCesarMorais/app-expanse-control-spring.git
 
 # 2. Suba os containers
 docker-compose -f docker/docker-compose.yml up -d
