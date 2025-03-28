@@ -22,7 +22,7 @@ Sistema para gestão de pagamentos e lançamentos financeiros.
 - **Upload de comprovantes** 
 - **Download de comprovantes** 
 
-## 🚀 Tecnologias
+## ⚙️ Tecnologias
 <div align="center"> 
   <img src="https://img.shields.io/badge/Spring-000000?style=for-the-badge&logo=Spring" alt="Spring" /> 
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" /> 
@@ -45,11 +45,7 @@ docker-compose -f docker/docker-compose.yml up -d
 # 3. Acesse a aplicação
 http://localhost:8080
 
-
-
-
-
-## **📊 Endpoints Principais**
+## **🌐 Endpoints Principais**
 
 | Método | Rota               | Descrição                     |
 |--------|--------------------|-------------------------------|
