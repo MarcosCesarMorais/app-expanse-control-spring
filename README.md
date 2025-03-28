@@ -1,26 +1,26 @@
 ## 📌 Descrição
 Sistema para gestão de pagamentos e lançamentos financeiros.
 
-### 🚀 Funcionalidades Principais
+## 🚀 Funcionalidades Principais
 
 #### 👥 Gestão de Usuários
 - **Cadastro seguro** com validação de e-mail.
 - **Hierarquia de acessos** (admin, usuário, convidado)
   
 #### 📝 Cadastro de Pessoas.
-- **Registro** com validação de e-mail.
- - **Endereço** com validação de e-mail.
- -  **Cidade e Estado** com validação de e-mail.
-   
+- **Cadastro** com validação de e-mail.
+- **Endereço** 
+- **Cidade e Estado** 
 
 #### 💰 Controle Financeiro
 - **Lançamento** de receitas e despesas
 
 #### 📊 Relatórios Avançados
-- **Geração de relatórios e receitas e despesas** (PDF)
-- 
+- **Geração de relatórios referente as receitas e despesas** (PDF)
+  
 #### 📎 Anexos Digitais
-- **Upload de comprovantes** (PDF, imagem)
+- **Upload de comprovantes** 
+- **Download de comprovantes** 
 
 ## 🚀 Tecnologias
 <div align="center"> 
@@ -43,7 +43,7 @@ git clone https://github.com/seu-usuario/financeflow.git
 docker-compose -f docker/docker-compose.yml up -d
 
 # 3. Acesse a aplicação
-http://localhost:3000
+http://localhost:8080
 
 
 
